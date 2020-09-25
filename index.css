@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ECE8E7;
+}
+header {
+    /*margin-top: 10px;*/
+    background-image: url('hero.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 400px;
+}
+.headlogo {
+    padding-top: 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+nav {
+    height: 100px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+nav ul li {
+    list-style : none;
+    display : inline-block;
+    line-height : 100px;
+}
+nav ul li a {
+    border: 1px solid rgb(8, 81, 83);
+    border-radius: 20px;
+    display : block;
+    text-decoration : none;
+    font-size : 20px;
+    color : white;
+    padding : 0 30px;
+    background-color: rgb(8, 81, 83);
+    font-style: italic;
+}
+nav ul li a:hover {
+    background-color: rgb(123, 248, 196);
+    transition : background-color 0.4s ease-in;
+}
+.medical {
+    height: 500px;
+    width: 100%;
+    background-color: #20B2AA;
+    border: 1px solid #20B2AA;
+    border-radius: 30px;
+}
+.h1 {
+    text-align: center;
+    height: 50px;
+    padding: 25px;
+    font-style: italic;
+}
+.h1 h1 {
+    height: 100%;
+    width: 300px;
+    padding-top: 10px;
+    border: 1px solid rgb(8, 81, 83);
+    border-radius: 20px;
+    background-color: rgb(8, 81, 83);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+.mdcltext {
+    /*height: 100%;*/
+    width: 50%;
+    float: left;
+    background-color: white;
+    border-radius: 20px;
+}
+.mdcltext p {
+    font-size: 30px;
+    line-height: 50px;
+}
+.mdcltext p a {
+    text-decoration: none;
+    color: black;
+}
+.mdcllogo {
+    width: 50%;
+    float: right;
+}
+.mdcllogo img {
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+}
+.business {
+    height: 500px;
+    width: 100%;
+}
+.buslogo {
+    width: 50%;
+    float: left;
+}
+.buslogo img {
+    height: 400px;
+    width: 100%;
+    border-radius: 60px;
+}
+.bustext {
+    width: 50%;
+    float: right;
+    background-color: #20B2AA;
+    border-radius: 20px;
+}
+.bustext p {
+    font-size: 30px;
+    line-height: 50px;
+}
+.bustext p a {
+    text-decoration: none;
+    color: black;
+}
+.crime {
+    height: 500px;
+    width: 100%;
+    background-color: #20B2AA;
+    border: 1px solid #20B2AA;
+    border-radius: 30px;
+}
+.crimtext {
+    width: 50%;
+    float: left;
+    background-color: white;
+    border-radius: 30px;
+}
+.crimtext p {
+    font-size: 30px;
+    line-height: 50px;
+}
+.crimtext p a {
+    text-decoration: none;
+    color: black;
+}
+.crimlogo {
+    width: 50%;
+    float: right;
+}
+.crimlogo img {
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+}
+.fictional {
+    height: 500px;
+    width: 100%;
+}
+.fictext {
+    width: 50%;
+    float: right;
+    background-color: #20B2AA;
+    border-radius: 30px;
+}
+.fictext p {
+    font-size: 30px;
+    line-height: 50px;
+}
+.fictext p a {
+    text-decoration: none;
+    color: black;
+}
+.ficlogo {
+    width: 50%;
+    float: left;
+}
+.ficlogo img {
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+}
+.kids {
+    height: 500px;
+    width: 100%;
+    background-color: #20B2AA;
+    border: 1px solid #20B2AA;
+    border-radius: 30px;
+}
+.kidstext {
+    width: 50%;
+    float: left;
+    background-color: white;
+    border-radius: 30px;
+}
+.kidstext p {
+    font-size: 30px;
+    line-height: 50px;
+}
+.kidstext p a {
+    text-decoration: none;
+    color: black;
+}
+.kidslogo {
+    width: 50%;
+    float: right;
+}
+.kidslogo img {
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+}
+.programming {
+    height: 500px;
+    width: 100%;
+}
+.progtext {
+    width: 50%;
+    float: right;
+    background-color: #20B2AA;
+    border-radius: 30px;
+}
+.progtext p {
+    font-size: 30px;
+    line-height: 50px;
+}
+.progtext p a {
+    text-decoration: none;
+    color: black;
+}
+.proglogo {
+    width: 50%;
+    float: left;
+}
+.proglogo img {
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+}
+.romance {
+    height: 500px;
+    width: 100%;
+    background-color: #20B2AA;
+    border: 1px solid #20B2AA;
+    border-radius: 30px;
+}
+.romnctext {
+    width: 50%;
+    float: left;
+    background-color: white;
+    border-radius: 30px;
+}
+.romnctext p {
+    font-size: 30px;
+    line-height: 50px;
+}
+.romnctext p a {
+    text-decoration: none;
+    color: black;
+}
+.romnclogo {
+    width: 50%;
+    float: right;
+}
+.romnclogo img {
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+}
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: #13C3E8;
+    border-radius: 30px;
+}
+footer p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+    header {
+        height: 500px;
+    }
+    nav ul li {
+        display: flex;
+        flex-direction: column;
+    }
+    .h1 h1 {
+        width: 290px;
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .logo {
+        width: 300px;
+    }
+    .mdcltext p,.bustext p,.crimtext p,.fictext p,.kidstext p,.progtext p,.romnctext p {
+        line-height: 30px;
+        font-size: 18px;
+    }
+    footer {
+        height: 200px;
+    }
+}

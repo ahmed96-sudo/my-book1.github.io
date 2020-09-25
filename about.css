@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ECE8E7;
+}
+header {
+    /*margin-top: 10px;*/
+    background-image: url('hero.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 400px;
+}
+.headlogo {
+    padding-top: 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+nav {
+    height: 100px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+nav ul li {
+    list-style : none;
+    display : inline-block;
+    line-height : 100px;
+}
+nav ul li a {
+    border: 1px solid rgb(8, 81, 83);
+    border-radius: 20px;
+    display : block;
+    text-decoration : none;
+    font-size : 20px;
+    color : white;
+    padding : 0 30px;
+    background-color: rgb(8, 81, 83);
+    font-style: italic;
+}
+nav ul li a:hover {
+    background-color: rgb(123, 248, 196);
+    transition : background-color 0.4s ease-in;
+}
+.h1head {
+    text-align: center;
+    height: 50px;
+    padding: 25px;
+    font-style: italic;
+}
+.h1head h1 {
+    height: 100%;
+    width: 400px;
+    padding-top: 10px;
+    border: 1px solid rgb(8, 81, 83);
+    border-radius: 20px;
+    background-color: rgb(8, 81, 83);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+.about {
+    height: 400px;
+    width: 100%;
+    background-color: #20B2AA;
+    border-radius: 30px;
+    border: 1px solid #20B2AA;
+}
+.abouttext {
+    margin-top: 70px;
+    width: 50%;
+    float: left;
+    background-color: white;
+    border-radius: 30px;
+}
+.abouttext p {
+    font-size: 30px;
+    line-height: 50px;
+}
+.aboutlogo {
+    width: 50%;
+    float: right;
+}
+.aboutlogo img {
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+}
+#test {
+    height: 450px;
+    width: 100%;
+}
+.testh2 {
+    text-align: center;
+    height: 50px;
+    padding: 25px;
+}
+.testh2 h1 {
+    height: 100%;
+    width: 200px;
+    padding-top: 10px;
+    border: 1px solid rgb(8, 81, 83);
+    border-radius: 20px;
+    background-color: rgb(8, 81, 83);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+.testpeople {
+    display: flex;
+    flex-direction: row;
+}
+#test1 {
+    height: 350px;
+    width: 25%;
+}
+.test1img {
+    height: 350px;
+    width: 100%;
+    cursor: pointer;
+}
+.test1par {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+#michael {
+    display: none;
+}
+#andrea {
+    display: none;
+}
+#rose {
+    display: none;
+}
+#steve {
+    display: none;
+}
+.test1img img {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+.test1img p {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.test1par p {
+    font-size: 25px;
+    line-height: 35px;
+    font-style: italic;
+}
+.test1par button {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BEB3B2;
+    color: black;
+}
+.test1par button:hover {
+    background-color: transparent;
+    transition: background-color 0.5s ease-in;
+}
+.h1 {
+    text-align: center;
+    height: 50px;
+    padding: 25px;
+    font-style: italic;
+}
+.h1 h1 {
+    height: 100%;
+    width: 300px;
+    padding-top: 10px;
+    border: 1px solid rgb(8, 81, 83);
+    border-radius: 20px;
+    background-color: rgb(8, 81, 83);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: #13C3E8;
+    border-radius: 30px;
+}
+footer p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+    header {
+        height: 500px;
+    }
+    nav ul li {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: 300px;
+    }
+    .h1head h1 {
+        width: 290px;
+    }
+    #headh1 {
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .h1 h1 {
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
+        width: 290px;
+    }
+    .test1img p {
+        font-size: 15px;
+    }
+    .abouttext {
+        margin-top: 0;
+    }
+    .abouttext p {
+        line-height: 35px;
+        font-size: 18px;
+    }
+    #andrea p,#michael p {
+        line-height: 20px;
+        font-size: 18px;
+    }
+    #rose p,#steve p {
+        line-height: 15px;
+        font-size: 15px;
+    }
+    footer {
+        height: 200px;
+    }
+}

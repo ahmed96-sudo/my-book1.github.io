@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>About Us</title>
+		<link rel="stylesheet" href="about.css" >
+		<link rel="shortcut icon" href="hero book.png" type="image/x-icon">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	</head>
+	<body>
+        <header>
+            <div class="logo">
+				<!--it will be the whole width and has a lot of height-->
+				<a href="index.html"><img src="mblogo.png" alt="logo" class="headlogo"></a>
+            </div>
+			<nav>
+				<!--it will be under the logo in the centerand i can use the flexbox-->
+				<ul>
+					<li><a href="contact.html" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+					<li><a href="about.html" target="_blank" rel="noopener noreferrer">About Us</a></li>
+				</ul>
+			</nav>
+        </header>
+        <div class="h1head">
+            <h1 id="headh1">About Us & Testimonials</h1>
+        </div>
+        <div class="about">
+            <div class="abouttext">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A cras semper auctor neque vitae tempus. Blandit volutpat maecenas volutpat blandit aliquam.</p>
+            </div>
+            <div class="aboutlogo">
+                <img src="about.jpeg" alt="about-logo">
+            </div>
+        </div>
+        <div id="test">
+            <div class="testh2">
+                <h1>Testimonials</h1>
+            </div>
+            <div class="testpeople">
+                <div id="test1">
+                    <div class="test1img">
+                        <img onclick="show1()" src="1.jpeg" alt="first">
+                        <p>-Michael De Santa</p>
+                    </div>
+                    <div class="test1par" id="michael">
+                        <p><q>I just wanted to say how useful is this library! It really helps me keep tracking my knowledge.</q><br><button onclick="hide1()">Hide</button></p>
+                    </div>
+                </div>
+                <div id="test1">
+                    <div class="test1img">
+                        <img onclick="show2()" src="2.jpeg" alt="second">
+                        <p>-Andrea Gorgec</p>
+                    </div>
+                    <div class="test1par" id="andrea">
+                        <p><q>This is a fantastic library, far more than I expected. Bravo, The person who designed this did an excellent job.</q><br><button onclick="hide2()">Hide</button></p>
+                    </div>
+                </div>
+                <div id="test1">
+                    <div class="test1img">
+                        <img onclick="show3()" src="3.jpeg" alt="third">
+                        <p>-Rose Horan</p>
+                    </div>
+                    <div class="test1par" id="rose">
+                        <p><q>I think this is one of the absolute best uses of the internet I have found. Your website is AWESOME!!! Thanks for the best site on the web.</q><br><button onclick="hide3()">Hide</button></p>
+                    </div>
+                </div>
+                <div id="test1">
+                    <div class="test1img">
+                        <img onclick="show4()" src="4.jpeg" alt="forth">
+                        <p>-Steve Boone</p>
+                    </div>
+                    <div class="test1par" id="steve">
+                        <p><q>Thank you for all that you have done. It is a great library.</q><br><button onclick="hide4()">Hide</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+			<div class="h1">
+				<h1>My Book</h1>
+			</div>
+			<p>ALL RIGHTS RESERVED FOR My Book. WEBSITE DESIGNED & CREATED BY AHMED.<br>MODERN & INNOVATIVE Book library.</p>
+        </footer>
+        <script>
+            var test = document.getElementById("test");
+            var test1 = document.getElementById("test1");
+            var michael = document.getElementById("michael");
+            var andrea = document.getElementById("andrea");
+            var rose = document.getElementById("rose");
+            var steve = document.getElementById("steve");
+            function show1() {
+                michael.style.display = "block" ;
+                andrea.style.display = "none" ;
+                rose.style.display = "none" ;
+                steve.style.display = "none" ;
+                test.style.height = "765px" ;
+                test1.style.height = "665px" ;
+            }
+            function show2() {
+                test.style.height = "765px" ;
+                test1.style.height = "665px" ;
+                andrea.style.display = "block" ;
+                michael.style.display = "none" ;
+                rose.style.display = "none" ;
+                steve.style.display = "none" ;
+            }
+            function show3() {
+                test.style.height = "765px" ;
+                test1.style.height = "665px" ;
+                rose.style.display = "block" ;
+                andrea.style.display = "none" ;
+                michael.style.display = "none" ;
+                steve.style.display = "none" ;
+            }
+            function show4() {
+                test.style.height = "765px" ;
+                test1.style.height = "665px" ;
+                steve.style.display = "block" ;
+                andrea.style.display = "none" ;
+                rose.style.display = "none" ;
+                michael.style.display = "none" ;
+            }
+            function hide1() {
+                michael.style.display = "none" ;
+                test.style.height = "450px" ;
+                test1.style.height = "350px" ;
+            }
+            function hide2() {
+                test.style.height = "450px" ;
+                test1.style.height = "350px" ;
+                andrea.style.display = "none" ;
+            }
+            function hide3() {
+                test.style.height = "450px" ;
+                test1.style.height = "350px" ;
+                rose.style.display = "none" ;
+            }
+            function hide4() {
+                test.style.height = "450px" ;
+                test1.style.height = "350px" ;
+                steve.style.display = "none" ;
+            }
+        </script>
+    </body>
+</html>
